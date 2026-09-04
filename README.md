@@ -1,40 +1,50 @@
-# Geetanjali Bharpoor â€” Official Website
+# Geetanjali Bharpoor — Official Website
 
-> Freshly crafted, small-batch homemade protein & nutrition mix formulated with 15 vital nutrients for daily strength, energy, and nourishment.
+Wholesome homemade protein & nutrition powder formulated with 15 vital nutrients, zero added sugar, and pure natural ingredients.
 
-ðŸŒ **Live Website:** [https://aditya-code133.github.io/gitanjali-bharpoor/](https://aditya-code133.github.io/gitanjali-bharpoor/)
+🌐 **Live Website:** [https://aditya-code133.github.io/gitanjali-bharpoor/](https://aditya-code133.github.io/gitanjali-bharpoor/)
 
 ---
 
-## âœ¨ Features
+## Features
 
-- **Mobile-First Responsive Design:** Optimized for all screen sizes with smooth micro-interactions.
-- **Direct Ordering Integration:** One-tap order routing via phone calls and WhatsApp with pre-filled greeting messages.
-- **Performance Optimized:** Pure Vanilla HTML5, CSS3, and JavaScript â€” zero heavy runtime dependencies or bloated frameworks.
+- **Mobile-First Responsive Design:** Crafted for all screen sizes with smooth micro-interactions.
+- **Direct Ordering Integration:** One-tap order routing via phone call and WhatsApp with pre-filled greeting messages.
+- **Performance Optimized:** Pure Vanilla HTML5, CSS3, and JavaScript — zero dependencies or heavy frameworks.
 - **SEO & Social Sharing Ready:** Semantic HTML5 markup, Open Graph tags, and modern web typography.
 
 ---
 
-## ðŸ“ Repository Structure
+## Pack Options
+
+| Pack Size | Target Use | Direct Action |
+| :--- | :--- | :--- |
+| **250g Starter Pack** | First-time trial | One-tap WhatsApp Order |
+| **500g Duo Pack** | Monthly supply (2 × 250g) | One-tap WhatsApp Order |
+| **1 KG Master Pack** | Family value pack | One-tap WhatsApp Order |
+
+---
+
+## Repository Structure
 
 `
-â”œâ”€â”€ images/
-â”‚   â”œâ”€â”€ fresh-batch.jpg        # Fresh batch packaging photography
-â”‚   â”œâ”€â”€ offer-banner.jpg       # Special pricing and offer flyer
-â”‚   â”œâ”€â”€ product-collection.jpg # Complete product lineup
-â”‚   â””â”€â”€ product-hero.jpg       # Main product showcase with measuring scoop
-â”œâ”€â”€ index.html                 # Semantic markup & page layout
-â”œâ”€â”€ styles.css                 # Custom design system & responsive styling
-â”œâ”€â”€ script.js                  # Dynamic contact synchronization & interactions
-â”œâ”€â”€ .gitignore                 # Standard system and workspace ignores
-â””â”€â”€ README.md                  # Project documentation
+├── images/
+│   ├── fresh-batch.jpg        # Batch packaging photography
+│   ├── offer-banner.jpg       # Special pricing and offer flyer
+│   ├── product-collection.jpg # Complete product lineup
+│   └── product-hero.jpg       # Main product showcase with measuring scoop
+├── index.html                 # Semantic markup & page layout
+├── styles.css                 # Custom design system & responsive styling
+├── script.js                  # Dynamic contact synchronization & interactions
+├── .gitignore                 # Standard system and workspace ignores
+└── README.md                  # Project documentation
 `
 
 ---
 
-## ðŸš€ Local Development
+## Local Development
 
-To run the project locally, open index.html in any browser or use a simple static server:
+To view the website locally, open index.html in any web browser, or start a local server:
 
 `ash
 # Using Python
@@ -46,6 +56,6 @@ npx serve .
 
 ---
 
-## ðŸ“„ License
+## License
 
-Â© 2026 Geetanjali Bharpoor. All rights reserved.
+© 2026 Geetanjali Bharpoor. All rights reserved.
