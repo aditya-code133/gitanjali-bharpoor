@@ -65,22 +65,18 @@ function initContactLinks() {
     }
   });
 
-  // Setup WhatsApp ordering with pre-filled messages
+  // Setup WhatsApp ordering with pre-filled messages for pack buttons
   document.querySelectorAll('[data-order-pack]').forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      const packName = btn.getAttribute('data-order-pack');
-      const packPrice = btn.getAttribute('data-order-price');
-      const message = encodeURIComponent(
-        `Hello Geetanjali Bharpoor! I would like to order the ${packName} (${packPrice}). Please share the payment and delivery details.`
-      );
-      const waUrl = `https://wa.me/${GB_CONFIG.whatsappNumber}?text=${message}`;
-      
-      // If mobile user wants to choose WhatsApp directly or fallback to call
-      if (btn.classList.contains('btn-whatsapp')) {
-        e.preventDefault();
-        window.open(waUrl, '_blank');
-      }
-    });
+    const packName = btn.getAttribute('data-order-pack');
+    const packPrice = btn.getAttribute('data-order-price');
+    const priceText = packPrice ? ` (${packPrice})` : '';
+    const message = encodeURIComponent(
+      `Hi Geetanjali Bharpoor! I would like to order the ${packName}${priceText}. Please share the payment and delivery details.`
+    );
+    const waUrl = `https://wa.me/${GB_CONFIG.whatsappNumber}?text=${message}`;
+    btn.setAttribute('href', waUrl);
+    btn.setAttribute('target', '_blank');
+    btn.setAttribute('rel', 'noopener');
   });
 }
 
