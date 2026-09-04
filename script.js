@@ -1,5 +1,5 @@
 /**
- * GITANJALI BHARPOOR — OFFICIAL SCRIPT
+ * GEETANJALI BHARPOOR — OFFICIAL SCRIPT
  * Centralized Configuration Hub & Smooth Micro-Interactions
  */
 
@@ -8,7 +8,7 @@
 // Update these values anytime — all links & contact references update across the site
 // ==========================================================================
 const GB_CONFIG = {
-  brandName: "Gitanjali Bharpoor",
+  brandName: "Geetanjali Bharpoor",
   tagline: "Homemade Goodness. Protein-Packed Nutrition.",
   
   // Primary Direct Order Phone Number

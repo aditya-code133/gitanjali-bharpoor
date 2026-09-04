@@ -1,4 +1,4 @@
-# Gitanjali Bharpoor â€” Official Website
+# Geetanjali Bharpoor â€” Official Website
 
 Wholesome homemade protein & nutrition powder with 15 vital nutrients, zero added sugar, and pure natural ingredients.
 
