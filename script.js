@@ -65,6 +65,13 @@ function initContactLinks() {
     }
   });
 
+  // Sync elements with data-sync="whatsapp-link"
+  document.querySelectorAll('[data-sync="whatsapp-link"]').forEach(el => {
+    el.setAttribute('href', defaultWaUrl);
+    el.setAttribute('target', '_blank');
+    el.setAttribute('rel', 'noopener');
+  });
+
   // Setup WhatsApp ordering with pre-filled messages for pack buttons (no prices)
   document.querySelectorAll('[data-order-pack]').forEach(btn => {
     const packName = btn.getAttribute('data-order-pack') || 'Pack';
