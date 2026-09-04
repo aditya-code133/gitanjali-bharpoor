@@ -53,6 +53,18 @@ function initContactLinks() {
     el.setAttribute('href', GB_CONFIG.instagramUrl);
   });
 
+  // Setup default pre-filled WhatsApp redirect message
+  const defaultWaMessage = encodeURIComponent(
+    "Hi Geetanjali Bharpoor! I would like to place an order for Geetanjali Bharpoor Nutrition Powder. Please share the pack details and delivery options."
+  );
+  const defaultWaUrl = `https://wa.me/${GB_CONFIG.whatsappNumber}?text=${defaultWaMessage}`;
+
+  document.querySelectorAll('a.btn-whatsapp').forEach(el => {
+    if (!el.hasAttribute('data-order-pack')) {
+      el.setAttribute('href', defaultWaUrl);
+    }
+  });
+
   // Setup WhatsApp ordering with pre-filled messages
   document.querySelectorAll('[data-order-pack]').forEach(btn => {
     btn.addEventListener('click', (e) => {
